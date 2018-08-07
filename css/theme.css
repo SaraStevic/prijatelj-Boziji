@@ -378,6 +378,9 @@ a:hover, a:focus, a:visited {
 header {
   background: no-repeat center;
 }
+header .navbar-brand {
+  padding: 0px;
+}
 
 @media (min-width: 992px) {
   .submenu {
@@ -386,6 +389,38 @@ header {
     left: 0;
     display: none;
   }
+}
+/* aside*/
+.aside-description {
+  bottom: 5%;
+  left: 5%;
+  color: white;
+  max-width: 80%;
+}
+
+.nav-item .fa-chevron-down {
+  font-size: 10px;
+}
+
+.box {
+  background-color: white;
+  min-height: 180px;
+  border-radius: 10px;
+}
+
+.home {
+  padding: 180px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.lead-slider .owl-dots {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 40px;
+  margin-top: 0;
 }
 
 /*# sourceMappingURL=theme.css.map */
